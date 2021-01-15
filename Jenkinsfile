@@ -1,11 +1,8 @@
 
 
 pipeline{
-    agent{
-        docker{
-            image 'node:alpine'
-             args '-p 20001-20100:3000'
-        }
+    agent {
+        docker { image 'node:14-alpine' }
     }
     environment{
         CI = true
