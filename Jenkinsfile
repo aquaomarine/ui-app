@@ -25,12 +25,12 @@ pipeline{
             }
         }
 
-        stage('staging'){
-            steps{
-                //
-                input "deploy to production?"
-            }
-        }   
+        // stage('staging'){
+        //     steps{
+        //         //
+        //         input "deploy to production?"
+        //     }
+        // }   
 
         stage('deployment'){
             steps{

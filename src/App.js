@@ -12,6 +12,8 @@ function App() {
         <a href="/">Learn React</a>
         <br />
         <a href="/">Learn Devops</a>
+        <hr />
+        <h1>Have Lunch Break</h1>
       </header>
     </div>
   );
