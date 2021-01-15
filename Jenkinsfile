@@ -38,6 +38,7 @@ pipeline{
                     // some block
                     s3Delete bucket: 'nagcloudlab-ui', path: '**/*'
                     s3Upload acl: 'PublicRead', bucket: 'nagcloudlab-ui',includePathPattern: '**/*', workingDir: 'build'
+                    mail(subject: 'Production Build', body: 'New Deployment to Production', to: 'jenkins-mailing-list@mail.com')
                 }
             }
         }   
