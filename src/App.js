@@ -15,6 +15,7 @@ function App() {
         <hr />
         <h1>Lunch break was delicious</h1>
         <h3>I ate a burrito</h3>
+        <h2>I ate a chicken sandwich.</h2>
       </header>
     </div>
   );
