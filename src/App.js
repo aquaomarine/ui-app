@@ -13,7 +13,8 @@ function App() {
         <br />
         <a href="/">Learn Devops</a>
         <hr />
-        <h1>Have Lunch Break</h1>
+        <h1>Lunch break was delicious</h1>
+        <h3>I ate a burrito</h3>
       </header>
     </div>
   );
